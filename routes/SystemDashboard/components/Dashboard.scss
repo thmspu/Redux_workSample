@@ -1,0 +1,38 @@
+.main-container {
+  height: calc(100% - 55px);
+  overflow: hidden;
+}
+
+.home-container {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.activity-table {
+  height: calc(100% - 120);
+}
+
+.text-live-view-subtext {
+  padding-top: 8px;
+}
+
+#il-body {  
+  height: 100%;
+  display: flex;  
+  overflow-x: hidden;
+}
+
+nav {
+  width: 220px;
+  height: calc(100% - 45px);
+  display: flex;
+}
+
+main {
+  height: 100%;  
+  width: calc(100% - 220px);
+  overflow-x: hidden;
+  display: flex;
+}

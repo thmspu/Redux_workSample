@@ -1,0 +1,52 @@
+.main-container {
+  height: calc(100% - 55px);
+  overflow: hidden;  
+}
+#il-body {  
+  height: 100%;
+  display: flex;  
+  overflow-x: hidden;
+}
+nav {
+  width: 220px;
+  height: 100%;
+  display: flex;
+}
+main {
+  height: 100%;  
+  width: calc(100% - 220px);
+  overflow-x: hidden;
+  display: flex;
+}
+.config-system-list {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  overflow: hidden;
+  width: 70%;
+  height: 95%;
+}
+.config-preview {
+  width: 25%;
+  height: 500px;
+  margin-top: 30px;
+}
+.config-sl-button {
+  float: right;
+  margin-right: -30px;
+}
+.config-available-systems-label {
+  float: right;
+  font-weight: 800;
+}
+.config-sl-fab {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+#config-sl-dropdown {
+  padding-top: 10px;
+}
+#config-sl-dropdown:hover {
+  background-color: rgba(0,0,0,0.078)  
+}

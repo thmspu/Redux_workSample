@@ -1,0 +1,44 @@
+.preview-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+.pc-system-name {  
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.pc-system-label {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(158, 158, 158);
+}
+.pc-subheading {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.pc-label {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.pc-value {
+  margin-right: 20px;  
+  font-size: 14px;
+  float: right;
+}
+.pc-button {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.pc-label-edit {
+  line-height: 20px;
+  margin-right: 10px;
+  float: right;
+}

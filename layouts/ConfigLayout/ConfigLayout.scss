@@ -1,0 +1,24 @@
+#il-spa {
+  width: 100%;
+  height: 100%;
+}
+
+#il-body {  
+  height: calc(100% - 100px);
+  display: flex;  
+  overflow-x: hidden;
+}
+
+nav {
+  width: 220px;
+  height: 100%;
+  display: flex;
+}
+
+main {
+  height: 100%;  
+  width: calc(100% - 220px);
+  overflow-x: hidden;
+  display: flex;
+}
+

@@ -1,0 +1,35 @@
+.config-grid-container {  
+  margin-top: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 90%;
+  font-size: 14px;
+}
+.cgc-system-name {
+  color: rgb(2, 136, 209);
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.cgc-system-label {
+  color: #9e9e9e;    
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.cgc-date-label {
+  color: #9e9e9e;  
+  margin-left: 15px;
+  font-weight: 800;  
+}
+.cgc-date-value {
+  color: rgba(0, 0, 0, 0.870588);
+  float: right;
+  margin-right: 15px;
+}
+.cgc-edit-icon {
+  margin-top: -12px;
+  float: right;
+}
